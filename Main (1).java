@@ -3,7 +3,7 @@ class Main{
                   System.out.print("glitter");
           }
           public static void glitter(int temp){
-                   if(temp>25){
+                   if(temp>35){ //changed 25 to 35
                          System.out.println("*");
                           temp-=1;
                           glitter(temp);
